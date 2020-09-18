@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/intro.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "dimension",
+    "title": "1. Dimensión de género y diferencial",
+    "breadcrumb": ["Inicio","dimension"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "dimension",
+        "title": "Dimensión de género y diferencial: relación con el medio ambiente y el mercurio",
+        "anchor": "grupos"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "lineamientos",
+    "title": "2. Lineamientos de género para el sector minero/energético: prevención de la violencia basada en género y trabajo infantil en las zonas mineras",
+    "breadcrumb": ["Inicio","lineamientos"],
+    "path": "pages/2-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "herramientas",
+    "title": "3. Herramientas para la mitigación",
+    "breadcrumb": ["Inicio","herramientas"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "herramientas",
+        "title": "Metodologías para el análisis de problemáticas y opciones de solución",
+        "anchor": "metodologia"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "herramientas",
+        "title": "Herramientas y estrategias para la eliminación del uso y mitigación del impacto del mercurio",
+        "anchor": "herramientas2"
+      }
+    ]
+  }
+]
