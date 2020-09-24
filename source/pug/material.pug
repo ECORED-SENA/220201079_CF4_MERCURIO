@@ -36,20 +36,14 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', 'main.html#page/#introduccion/')
                                     +navTemaItem('1', 'Dimensión de género y diferencial', 'main.html#page/#tema-1/')
-                                    +navTemaItem('2', 'Lineamientos de género para el sector minero/energético: prevención de la violencia basada en género y trabajo infantil en las zonas mineras', 'main.html#page/#tema-2/')
-                                    +navTemaItem('3', 'Herramientas para la mitigación', 'main.html#page/#tema-3/')
+                                    +navTemaItem('2', 'Herramientas para la mitigación', 'main.html#page/#tema-2/')
 
         section#mainContent         
-            #introduccion
-                include pages/intro.pug
             #tema-1
                 include pages/1-tema.pug
             #tema-2
                 include pages/2-tema.pug
-            #tema-3
-                include pages/3-tema.pug
             #glosario
                 include pages/glosario.pug
             #anexos
