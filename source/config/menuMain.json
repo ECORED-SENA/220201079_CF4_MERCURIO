@@ -6,6 +6,12 @@
     "path": "index.html"
   },
   {
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "path": "pages/introduccion.html"
+  },
+  {
     "id": 1,
     "icon": "fa fa-file-text",
     "slug": "dimension",
@@ -20,10 +26,22 @@
         "anchor": "dimension1"
       },
       {
+        "icon": "fa fa-question-circle",
+        "slug": "dimension",
+        "title": "Actividad didáctica: Grupos de especial protección",
+        "anchor": "actividad-1"
+      },
+      {
         "icon": "fa fa-file-text",
         "slug": "dimension",
         "title": "1.2 Lineamientos de género para el sector minero/energético: prevención de la violencia basada en género y trabajo infantil en las zonas mineras",
         "anchor": "lineamientos"
+      },      
+      {
+        "icon": "fa fa-question-circle",
+        "slug": "dimension",
+        "title": "Actividad didáctica: Relación de términos en el enfoque diferencial y de género",
+        "anchor": "actividad-2"
       }
     ]
   },
